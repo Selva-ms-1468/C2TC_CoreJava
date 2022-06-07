@@ -1,20 +1,23 @@
-
-public class this_keyword {
-
-	class Demo
+class Demo1
 	{
-		void m()
+		void this_keyword()
 		{
-			System.out.println(this);
-		}
-		public static void main(String args[])
-		{
-			Demo obj = new Demo();
-			System.out.println(obj);
-			obj.m();
+			System.out.println("hello");
 		}
 	}
+
+public class this_keyword 
+{
 	
 	
+	public static void main(String args[])
+	{
+		Demo1 obj=new Demo1();
+		System.out.println(obj);
+		obj.this_keyword();
+	}
+
+}	
 	
-}
+	
+

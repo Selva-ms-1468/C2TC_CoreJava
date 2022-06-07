@@ -1,16 +1,17 @@
 
-public class Alphabet {
-
-	class main
+public class Alphabet 
+{	
+	public static void main(String args[]) 	
 	{
-		public main(String[] args)
-	
-    {char a;
-	if(Character.isAlphabetic(a))
-		System.out.println(a+"is an alphabet");
-	else
-		System.out.println(a+"is not an alphabet");
-    }
+		char a = 'a';
+		if(Character.isAlphabetic(a))
+		{
+			System.out.println(a +" is an alphabet");
+		}
+		else
+		{	
+			System.out.println(a+" is not an alphabet");
+		}
 
 	}
 }
